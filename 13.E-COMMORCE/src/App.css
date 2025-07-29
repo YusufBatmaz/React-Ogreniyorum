@@ -1,0 +1,81 @@
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+#root {
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: var(--item-bg);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+    color: var(--secondary-text);
+}
+
+.search-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--item-bg);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.search-button:hover {
+    background-color: var(--hover-bg);
+    color: var(--text-color);
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: var(--text-color);
+}
+
+.icons {
+    margin-right: 6px;
+    margin-left: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}

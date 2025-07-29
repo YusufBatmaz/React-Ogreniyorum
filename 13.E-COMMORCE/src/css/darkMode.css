@@ -1,0 +1,134 @@
+/* Light Mode (Default) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --secondary-text: #666666;
+    --border-color: #eeeeee;
+    --drawer-bg: #ffffff;
+    --header-bg: #f8f9fa;
+    --item-bg: #fafafa;
+    --footer-bg: #f8f9fa;
+    --hover-bg: #e9ecef;
+    --danger-hover: #f8d7da;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --overlay-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --secondary-text: #b0b0b0;
+    --border-color: #404040;
+    --drawer-bg: #2d2d2d;
+    --header-bg: #333333;
+    --item-bg: #3a3a3a;
+    --footer-bg: #333333;
+    --hover-bg: #4a4a4a;
+    --danger-hover: #4a2a2a;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --overlay-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Apply dark mode to body and root */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles for common elements */
+input, textarea, select {
+    background-color: var(--item-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+button {
+    background-color: var(--item-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Dark mode for Material-UI components */
+.MuiBadge-badge {
+    background-color: #e74c3c !important;
+    color: white !important;
+}
+
+/* Dark mode for icons */
+.icons {
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+/* Dark mode for search input */
+.search-input {
+    background-color: var(--item-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.search-input::placeholder {
+    color: var(--secondary-text);
+}
+
+/* Dark mode for search button */
+.search-button {
+    background-color: var(--item-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.search-button:hover {
+    background-color: var(--hover-bg);
+}
+
+/* Dark mode for logo text */
+.logo-text {
+    color: var(--text-color);
+}
+
+/* Dark mode for product cards */
+.product-card {
+    background-color: var(--item-bg);
+    border: 1px solid var(--border-color);
+}
+
+.product-title {
+    color: var(--text-color);
+}
+
+.product-price {
+    color: #e74c3c;
+}
+
+.product-description {
+    color: var(--secondary-text);
+}
+
+/* Dark mode for navigation */
+.nav-link {
+    color: var(--text-color);
+}
+
+.nav-link:hover {
+    color: var(--secondary-text);
+}
+
+/* Dark mode for page container */
+.page-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Smooth transitions for all elements */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+} 
