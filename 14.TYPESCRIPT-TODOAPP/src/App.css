@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-create {
+  width: 500px;
+  height: 100px;
+  background-color: #fbfafa;
+  border-radius: 10px;
+  padding: 20px 0px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-create-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 0 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #f0f0f0;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.todo-create-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #b9fffa;
+  color: #000000;
+}
+.todo-create-button:hover {
+  background-color: #7efcf4;
+  color: #000000;
+  border: 1px solid #000000;
+  transform: scale(1.05);
+}
+
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  background-color: #fbfafa;
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: 1px solid #000;
+  margin-top: 25px;
+}
+
+.icons {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+}
+.icons:hover {
+  transform: scale(1.1);
+}
+
+.todo-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 0px 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #f0f0f0;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.todo-input:focus {
+  border: 1px solid #000;
+  outline: none;
+  transform: scale(1.05);
+}
