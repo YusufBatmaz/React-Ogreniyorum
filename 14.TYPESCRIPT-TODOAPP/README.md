@@ -1,69 +1,16 @@
-# React + TypeScript + Vite
+TypeScript kullanarak bir ToDo sayfası tasarladım. Aşağıda ekran görüntüleri mevcut olacak.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ToDo ekledikçe oluşan görüntü:<br/>
+<img width="1895" height="382" alt="image" src="https://github.com/user-attachments/assets/eaa57e24-c6a1-4a88-ac29-419c7934da32" />
+<br/><br/><br/><br/>
 
-Currently, two official plugins are available:
+ToDo boş olursa hata mesajı:<br/>
+<img width="650" height="528" alt="image" src="https://github.com/user-attachments/assets/72df837a-75d1-4dc4-82c1-b3db0ba7a801" />
+<br/><br/><br/><br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Edit butonuna basınca: <br/>
+<img width="1919" height="340" alt="image" src="https://github.com/user-attachments/assets/330ec401-2ab2-4bdd-b392-26c109c22ed9" />
+<br/><br/><br/><br/>
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Sil butonuna basınca:<br/>
+<img width="1903" height="389" alt="image" src="https://github.com/user-attachments/assets/dc0252b1-8746-429e-90d3-6d79d5e9ce7c" />
