@@ -1,12 +1,9 @@
-# React + Vite
+<h3>Arayüz ekran görüntüleri:<h3/><br/><br/><br/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Giriş-Kaydol Ekranı <br/>
+<img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/01ec0b4f-e657-42f2-9524-903babff5502" />
+<br/><br/><br/>
+Giriş-Kaydol Yapıldıktan Sonra Home sayfası:<br/>
+<img width="1919" height="613" alt="image" src="https://github.com/user-attachments/assets/727447f0-cad8-43b5-8559-e677cb7dc723" />
+<img width="1919" height="633" alt="image" src="https://github.com/user-attachments/assets/0f64de83-4ef7-44f6-ba20-9ce6ac6d45bc" />
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
